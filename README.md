@@ -16,9 +16,22 @@ Stress Detection Using Wearable Physiological Signals (SDUWP): A robust project 
 
 ---
 
+## 📄 Paper & Documentation
+
+A comprehensive scientific report detailing the theoretical background, methodology, and in-depth experimental analysis is available in the `RELATORIO` directory.
+
+* **Title:** SDUWPS: Detecção de Estresse e Esforço Físico com Sinais Fisiológicos
+* **Language:** Portuguese (PT-BR)
+* **Format:** PDF & LaTeX Source
+* **Location:** [`RELATORIO/`](./RELATORIO)
+
+The paper provides a deeper dive into the specific challenges of distinguishing physiological stress from physical exertion and justifies the architectural choices made in this pipeline (e.g., why demographics were excluded and the impact of the `tsfresh` feature selection).
+
 > **Paper Title:** SDUWPS: Detecção de Estresse e Esforço Físico com Sinais Fisiológicos
 > **Authors:** Anderson Cristiano Sassaki Gonçalves & Lorenzo Grippo Chiachio
 > **Institution:** Federal University of São Carlos (UFSCar) - Sorocaba Campus
+
+---
 
 ## 📋 Table of Contents
 - [About the Project](#-about-the-project)
@@ -57,7 +70,7 @@ The model is trained on a dataset containing raw time-series data collected from
 * **IBI:** Inter-beat Intervals (Heart Rate Variability).
 * **BVP:** Blood Volume Pulse.
 
-> **Note:** Demographic data (Age, Gender, Weight) was analyzed but explicitly **excluded** from the final model to ensure the system generalizes based on physiological dynamics rather than static anthropometric features.
+> **Note:** Demographic data (Age, Gender, Weight) was analyzed and also included on the training stage, even though it didn't have a considerate impact on the final model's precision.
 
 ---
 
