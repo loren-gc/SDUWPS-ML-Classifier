@@ -5,6 +5,19 @@ Stress Detection Using Wearable Physiological Signals (SDUWP): A robust project 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Library](https://img.shields.io/badge/Library-Scikit--Learn%20%7C%20XGBoost%20%7C%20tsfresh-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
+---
+
+## 📋 Table of Contents
+- [Authors](#-authors)
+- [Paper & Documentation](#-Paper-&-Documentation)
+- [About the Project](#-about-the-project)
+- [Dataset & Sensors](#-dataset--sensors)
+- [Methodology Pipeline](#-methodology-pipeline)
+  - [Preprocessing](#1-preprocessing-and-cleaning)
+  - [Feature Engineering](#2-feature-engineering-tsfresh)
+  - [Machine Learning Models](#3-machine-learning-models)
+- [Results](#-results-and-performance)
+- [Project Structure](#-project-structure)
 
 ---
 
@@ -30,20 +43,6 @@ The paper provides a deeper dive into the specific challenges of distinguishing 
 > **Paper Title:** SDUWPS: Detecção de Estresse e Esforço Físico com Sinais Fisiológicos
 > **Authors:** Anderson Cristiano Sassaki Gonçalves & Lorenzo Grippo Chiachio
 > **Institution:** Federal University of São Carlos (UFSCar) - Sorocaba Campus
-
----
-
-## 📋 Table of Contents
-- [About the Project](#-about-the-project)
-- [Dataset & Sensors](#-dataset--sensors)
-- [Methodology Pipeline](#-methodology-pipeline)
-  - [Preprocessing](#1-preprocessing-and-cleaning)
-  - [Feature Engineering](#2-feature-engineering-tsfresh)
-  - [Machine Learning Models](#3-machine-learning-models)
-- [Results](#-results-and-performance)
-- [Project Structure](#-project-structure)
-- [How to Run](#-how-to-run)
-- [Authors](#-authors)
 
 ---
 
