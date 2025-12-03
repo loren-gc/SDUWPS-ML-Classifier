@@ -50,9 +50,9 @@ The paper provides a deeper dive into the specific challenges of distinguishing 
 
 **SDUWPS** is a Machine Learning framework designed to classify physiological states of the human body using raw data from wearable devices. The primary goal is to distinguish between three distinct states based on multivariate time-series data:
 
-1.  **RELAXATION/STRESS** (Cognitive/Psychological state)
-2.  **AEROBIC ACTIVITY** (Physical exertion)
-3.  **ANAEROBIC ACTIVITY** (Intense physical exertion)
+1.  **STRESS** (Cognitive/Psychological state)
+2.  **AEROBIC** (Physical exertion)
+3.  **ANAEROBIC** (Intense physical exertion)
 
 The project explores the challenge of separating physiological arousal caused by mental stress from arousal caused by physical exercise, utilizing a pipeline that includes advanced signal processing, automated feature extraction, and ensemble learning algorithms.
 
@@ -83,7 +83,7 @@ The solution is implemented in Python and follows a rigorous Data Science pipeli
 * **Normalization:** Scaling of sensor readings to ensure magnitude consistency.
 
 ### 2. Feature Engineering (`tsfresh`)
-We utilized **[tsfresh](https://tsfresh.readthedocs.io/)** (Time Series Feature extraction on basis of Scalable Hypothesis tests) to automatically extract hundreds of mathematical characteristics from the raw signals.
+We utilized **[tsfresh](https://tsfresh.readthedocs.io/)** (Time Series Feature extraction on basis of Scalable Hypothesis tests) to automatically extract hundreds/thousands of mathematical characteristics from the raw signals.
 * **Extraction:** Statistical, spectral, and temporal features.
 * **Selection:** Hypothesis testing was used to filter out irrelevant features, keeping only those with high discriminative power for the target classes.
 
