@@ -100,16 +100,17 @@ The experiments demonstrated that the **XGBoost** model achieved the best overal
 
 ```bash
 SDUWPS-Stress-Detection/
-├── dataset/                # Raw sensor data and CSV files
-│   ├── train.csv           # Training labels
-│   ├── users_info.txt      # Demographic metadata
-│   └── ...
-├── figs/                   # Generated plots (Confusion Matrix, ROC, etc.)
-├── scripts/                # Helper Python modules
-│   ├── experimentos.py     # Model training and benchmarking functions
-│   └── preprocessamento.py # Cleaning and Feature Extraction functions
-├── main.ipynb              # Main Jupyter Notebook (Run this file)
-├── SDUWPS_Paper.pdf        # Full scientific paper (PDF)
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── IMPLEMENTACAO
+    ├── dataset/                # Raw sensor data and CSV files
+    │   ├── train.csv           # Training labels
+    │   ├── users_info.txt      # Demographic metadata
+    │   └── ...
+    ├── figs/                   # Generated plots (Confusion Matrix, ROC, etc.)
+    ├── scripts/                # Helper Python modules
+    │   ├── experimentos.py     # Model training and benchmarking functions
+    │   └── preprocessamento.py # Cleaning and Feature Extraction functions
+    ├── main.ipynb              # Main Jupyter Notebook (Run this file)
+    ├── SDUWPS_Paper.pdf        # Full scientific paper (PDF)
+    ├── requirements.txt        # Python dependencies
+    └── README.md               # Project documentation
 ```
