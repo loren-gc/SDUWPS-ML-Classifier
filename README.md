@@ -38,7 +38,7 @@ A comprehensive scientific report detailing the theoretical background, methodol
 * **Format:** PDF & LaTeX Source
 * **Location:** [`RELATORIO/`](./RELATORIO)
 
-The paper provides a deeper dive into the specific challenges of distinguishing physiological stress from physical exertion and justifies the architectural choices made in this pipeline (e.g., why demographics were excluded and the impact of the `tsfresh` feature selection).
+The paper provides a deeper dive into the specific challenges of distinguishing physiological stress from physical exertion and justifies the architectural choices made in this pipeline.
 
 > **Paper Title:** SDUWPS: Detecção de Estresse e Esforço Físico com Sinais Fisiológicos
 > **Authors:** Anderson Cristiano Sassaki Gonçalves & Lorenzo Grippo Chiachio
