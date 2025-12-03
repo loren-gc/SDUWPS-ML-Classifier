@@ -123,7 +123,5 @@ SDUWPS-Stress-Detection/
     │   ├── experimentos.py     # Model training and benchmarking functions
     │   └── preprocessamento.py # Cleaning and Feature Extraction functions
     ├── main.ipynb              # Main Jupyter Notebook (Run this file)
-    ├── SDUWPS_Paper.pdf        # Full scientific paper (PDF)
-    ├── requirements.txt        # Python dependencies
-    └── README.md               # Project documentation
+├── README.md               # Project documentation
 ```
